@@ -1,7 +1,7 @@
 //your code here
 
 function calculateTotalPrice() {
-      var prices = document.querySelectorAll('[data-ns-test="prices"]');
+      var prices = document.querySelectorAll('[data-ns-test="price"]');
       var total = 0;
 
       // Iterate through each price element and sum the values
