@@ -7,8 +7,10 @@ function calculateTotalPrice() {
       // Iterate through each price element and sum the values
       prices.forEach(function(priceElement) {
         var price = parseInt(priceElement.textContent);
-        
-          total += price;
+        if(price){
+			total += price;
+		}
+          
         
       });
 
