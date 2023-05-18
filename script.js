@@ -17,7 +17,7 @@ function calculateTotalPrice() {
       var newRow = document.createElement('tr');
       var totalCell = document.createElement('td');
       totalCell.setAttribute('colspan', '2');
-      totalCell.textContent = 'Total Price: ' + total.toFixed(2);
+      totalCell.textContent = 'Total Price: ' + total;
       newRow.appendChild(totalCell);
 
       // Set the data attribute for identifying the total element
