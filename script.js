@@ -7,9 +7,9 @@ function calculateTotalPrice() {
       // Iterate through each price element and sum the values
       prices.forEach(function(priceElement) {
         var price = parseInt(priceElement.textContent);
-        if (!isNaN(price)) {
+        
           total += price;
-        }
+        
       });
 
       // Create a new row for displaying the total price
